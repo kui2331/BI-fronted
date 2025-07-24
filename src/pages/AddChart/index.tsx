@@ -125,7 +125,7 @@ const AddChart: React.FC = () => {
           <Divider />
           <Card title="可视化图表">
             {
-              options ? <ReactECharts option={options} /> : <div>请先在左侧进行提交</div>
+              option ? <ReactECharts option={option} /> : <div>请先在左侧进行提交</div>
             }
             <Spin spinning={submitting}/>
           </Card>
